@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1940px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellow;
+  height: 912px;
+  max-width: 1240px;
+  width: 100%;
+}
