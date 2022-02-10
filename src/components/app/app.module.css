@@ -5,12 +5,13 @@
   justify-content: center;
   align-items: center;
   max-width: 1940px;
+  max-height: 100vh;
 }
 
 .main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
   border: 2px solid yellow;
   height: 912px;
   max-width: 1240px;

@@ -1,6 +1,28 @@
 .ingredients_container {
   max-width: 600px;
-  height: 912px;
+  /*height: 912px;*/
   border: 2px solid red;
   flex: 1;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  font-family: "JetBrains Mono", monospace;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #f2f2f3;
+}
+
+.columns_puns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scroll {
+  /*flex: 1;*/
+  height: 650px;
+  overflow-y: scroll;
 }
