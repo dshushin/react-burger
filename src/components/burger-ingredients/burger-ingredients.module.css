@@ -1,28 +1,29 @@
 .ingredients_container {
-  max-width: 600px;
-  /*height: 912px;*/
-  border: 2px solid red;
-  flex: 1;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  font-family: "JetBrains Mono", monospace;
+    max-width: 600px;
+    /*border: 2px solid red;*/
+    flex: 1;
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 h2 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 40px;
-  color: #f2f2f3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #f2f2f3;
 }
 
 .columns_puns {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .scroll {
-  /*flex: 1;*/
-  height: 650px;
-  overflow-y: scroll;
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
 }

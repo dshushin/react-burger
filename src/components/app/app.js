@@ -5,15 +5,15 @@ import BurgerIngredients from '../burger-ingredients/burger-ingredients';
 import styles from './app.module.css'
 
 function App() {
-  return (
-    <div className={styles.container}>
-      <AppHeader/>
-      <main className={styles.main}>
-      <BurgerIngredients/>
-      <BurgerConstructor/>
-      </main>
-    </div>
-  );
+    return (
+        <div className={styles.container}>
+            <AppHeader/>
+            <main className={styles.main}>
+                <BurgerIngredients/>
+                {/*<BurgerConstructor/>*/}
+            </main>
+        </div>
+    );
 }
 
 export default App;
